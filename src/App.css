@@ -1,38 +1,185 @@
-.App {
+.Nav-bg {
+  background-color: #023b6d;
+}
+.Nav1-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.home {
+  background-image: url("./Imperial\ Bootstrap\ Template\ Demo_files/pexels-lukas-kloeppel-466685.jpg");
+  background-position: center;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+  width: 100%;
+}
+.logo_1 {
+  width: 40%;
+}
+ul li {
+  list-style: none;
+  text-decoration: none;
+  float: right;
+  margin: 0 10px;
+}
+
+.home-color {
+  color: #03c4eb;
+}
+.icon {
+  font-size: 25px;
+  margin-left: 10px;
+
+  align-content: center;
+}
+.img {
+  width: 80%;
+}
+
+.services-icon {
+  font-size: 50px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #03c4eb;
+  border-radius: 50%;
+  padding: 13px;
+}
+.services-icon:hover {
+  font-size: 50px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 2px solid #03c4eb;
+  color: #03c4eb;
+  border-radius: 50%;
+}
+.service_img {
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+  /* background-image: url("./Imperial\ Bootstrap\ Template\ Demo_files/pexels-pixabay-267507.jpg"); */
+}
+.vertical {
+  top: 25%;
   text-align: center;
+  justify-content: center;
+  position: relative;
 }
+.btn-1 {
+  background-color: #03c4eb;
+  border: 2px solid #03c4eb;
+  color: #fff;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-1:hover {
+  /* background-color: rgba(0, 0, 0, 0.9);
+   */
+  background-color: transparent;
+  border: 2px solid #fff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.btn-2 {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-2:hover {
+  background-color: #03c4eb;
+  border: 2px solid #03c4eb;
+  color: #fff;
+}
+.border-b {
+  border-bottom: 4px solid #03c4eb;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+.w-20 {
+  width: 220px;
+  box-shadow: #000;
+}
+.prev {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.2s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  transition-property: all;
+}
+.contact-icon {
+  font-size: 40px;
+  color: #03c4eb;
+  border-radius: 50%;
+}
+.team-icons {
+  color: rgb(86, 78, 78);
+  font-size: 20px;
+}
+.team-icons:hover {
+  color: #03c4eb;
+}
+.team-pics {
+  width: 100%;
+  height: auto;
+}
+.f-text,
+.client {
+  color: #03c4eb;
+}
+.contact-btn {
+  background-color: #03c4eb;
+  border: 2px solid #03c4eb;
+  color: #fff;
+  border-radius: 5px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  justify-self: center;
 }
-
-.App-link {
-  color: #61dafb;
+.port-icon {
+  font-size: 20px;
+  color: #000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.port-icon:hover {
+  color: #12b2d2;
+}
+.contact-btn:hover {
+  background-color: #12b2d2;
+}
+.row {
+  justify-content: space-between;
+}
+.para {
+  font-size: 10px;
+}
+.col-lg-6 {
+  margin: auto;
+}
+.port {
+  background-color: #f8f9fa;
+  margin-bottom: 40px;
+}
+.quote {
+  border: 1px solid #f8f9fa;
+  background: #fff;
+  border-radius: 10px;
+  padding: 60px;
+}
+.pic {
+  border-radius: 50%;
+  width: 80%;
+  border: 5px solid #fff;
+}
+.pic:hover {
+  border: 5px solid #12b2d2;
+  transition: 300ms;
+}
+.testimonials-bg,
+.contact-bg {
+  background-color: #ececec;
 }
